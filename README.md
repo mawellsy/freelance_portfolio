@@ -1,127 +1,185 @@
-# 📁 **Freelance Tech Portfolio**
+# 🚀 **Freelance Tech Portfolio**
 
-This portfolio showcases a set of practical, real-world tools I built for clients who need help with security, data cleaning, and basic automation. Each project includes a clear description, example input/output, and instructions so anyone can run the tools easily.
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/mawellsy)
+[![Status](https://img.shields.io/badge/Status-Active-success)](#)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
+
+A collection of practical tools, scripts, and checklists designed for beginner-friendly freelance tech work. These projects target real problems clients often face: messy data, unorganized files, unsafe devices, and basic automation needs.
+
+Everything here is simple, clean, and built to be easy for non-technical users to run.
 
 ---
 
-## 🌟 **Services I Offer**
+# 📑 **Table of Contents**
+
+* [Services I Offer](#services-i-offer)
+* [Projects](#projects)
+
+  * [1. Security Checklist](#1-security-checklist)
+  * [2. CSV Cleaner (Version 1)](#2-csv-cleaner-version-1)
+  * [3. CSV Cleaner (Version 2)](#3-csv-cleaner-version-2)
+  * [4. File Organizer Script](#4-file-organizer-script)
+* [Skills Demonstrated](#skills-demonstrated)
+* [How to Use the Projects](#how-to-use-the-projects)
+* [Future Additions](#future-additions)
+* [About This Portfolio](#about-this-portfolio)
+
+---
+
+# 🌟 **Services I Offer**
 
 (Full details in `services.md`)
 
-### 1. **Security & Device Setup**
+### 🛡 Security & Device Setup
 
-I prepare devices, remove basic security risks, and provide a checklist to help non-technical users stay safe.
+Help non-technical users secure their devices and accounts with a clean, easy-to-follow checklist.
 
-### 2. **CSV/Excel Cleanup**
+### 🧹 CSV / Excel Cleaning
 
-I turn messy datasets into clean, usable files ready for analysis or reporting.
+Transform messy, inconsistent datasets into clean, analysis-ready files.
 
-### 3. **File & Folder Automation**
+### 📂 File & Folder Automation
 
-I write simple automation scripts that organize, transform, or standardize user files.
+Write simple scripts that organize, rename, or process user files automatically.
 
 ---
 
-## 📦 **Projects in This Portfolio**
+# 📦 **Projects**
 
-### ### 1. **Security Checklist**
+Each project folder contains:
 
-Folder: `security_checklist/`
-A clear, beginner-friendly security checklist aimed at students and freelancers.
-Covers passwords, 2FA, device hygiene, backups, network safety, email hygiene, and more.
+* The script
+* Example input
+* Example output
+* A README explaining how to run it
 
-**Includes:**
+---
+
+## 1. **Security Checklist**
+
+**Folder:** `security_checklist/`
+
+A clear, structured checklist to help students and freelancers follow safe digital practices. Covers:
+
+* Passwords & password managers
+* Two-Factor Authentication
+* Device hygiene
+* Backups
+* Network safety
+* Email hygiene
+* Browsing safety
+
+**Files:**
 
 * `security_checklist.md`
+* *(optional)* PDF version
 
 ---
 
-### 2. **CSV Cleaner (Version 1)**
+## 2. **CSV Cleaner (Version 1)**
 
-Folder: `csv_cleaner/`
-A basic cleanup script that processes a messy CSV and outputs a clean, consistent dataset.
+**Folder:** `csv_cleaner/`
 
-**Features:**
+A simple CSV cleanup tool that:
 
 * Strips whitespace
 * Converts text to lowercase
 * Cleans numeric columns
-* Removes duplicates
-* Fixes date formatting
+* Drops duplicates
+* Fixes dates when possible
 * Outputs `clean_data.csv`
+
+Perfect for basic client datasets.
 
 ---
 
-### 3. **CSV Cleaner (Version 2)**
+## 3. **CSV Cleaner (Version 2)**
 
-Folder: `csv_cleaner_2/`
-A more advanced version of the cleaner with flexible column-type handling.
+**Folder:** `csv_cleaner_2/`
+
+A more powerful version with user-defined column types.
 
 **Features:**
 
-* User-specified text, integer, and money columns
-* Cleans values per category
-* Generates a cleaning report
-* Outputs `clean_data.csv`
+* Cleans money, integer, and text columns
+* Automatic type conversion
+* Cleaning report printed to console
+* Cleaner output with consistent formatting
+
+Useful for more complex real-world CSV jobs.
 
 ---
 
-### 4. **File Organizer Script**
+## 4. **File Organizer Script**
 
-Folder: `file_organizer/`
-A script that automatically sorts files into category folders (Images, Documents, Code, etc.) based on file extension.
+**Folder:** `file_organizer/`
 
-**Features:**
+Automatically organizes files into categories based on extension (Images, Documents, Code, etc.).
 
-* Detects file type and organizes automatically
-* Creates folders if missing
-* Handles duplicate names safely
-* Optional dry-run mode
+**Highlights:**
+
+* Creates folders automatically
+* Detects file types
+* Handles duplicate filenames safely
+* Dry-run mode for safety
 * Requires no external libraries
 
+Ideal for clients with chaotic folders.
+
 ---
 
-## 🛠 **Skills Demonstrated**
+# 🛠 **Skills Demonstrated**
 
 * Python scripting
-* Data cleaning & formatting
-* Pandas for data processing
+* Data cleaning & preprocessing
+* Pandas (for CSV handling)
+* File automation (os, shutil, pathlib)
 * CLI tool design
-* File automation with `os` and `shutil`
-* Writing professional documentation
+* Documentation writing
+* Clean folder structure & version control
+* Beginner-friendly UX in script design
 
 ---
 
-## 🔧 **How to Use the Projects**
+# 🔧 **How to Use the Projects**
 
-Each folder contains:
+### Basic usage:
 
-* The script
-* Input data (if applicable)
-* Output example
-* A README with instructions
-
-To run any script:
-
-```bash
+```
 python3 script_name.py
 ```
 
-Instructions and parameters are explained inside each project folder.
+Each project folder contains a README with detailed instructions, parameters, and examples.
 
 ---
 
-## 🌐 **Future Additions**
+# 🌱 **Future Additions**
 
 * Merge-multiple-CSV tool
-* Device setup walkthrough PDF
-* Simple HTML portfolio site
-* Small automation utilities
+* Basic HTML portfolio website
+* Small automation utilities (renamers, converters)
+* Device setup guide PDF
+* Error-handling improvements in existing scripts
 
 ---
 
-## 📬 **About This Portfolio**
+# 🧩 **About This Portfolio**
 
-This is a starter build for my freelance work. I created it to show clients that I can deliver small but useful tools with clean code and clear documentation.
+This portfolio is part of my early-stage freelance journey.
+The goal: build simple but useful tools that solve real problems for clients and demonstrate real capability in Python automation, security basics, and data cleaning.
 
 ---
+
+# 🏁 Done.
+
+Your repo will now look like a fully professional, polished, modern portfolio—even if you're still figuring out how to air-fry chicken without committing a crime.
+
+If you want, I can now also:
+
+* Add **project banners** (small PNGs)
+* Create a **GitHub Pages portfolio site**
+* Write a **clean Upwork overview** that uses this repo as proof
+* Make a **skills badge section**
+
+Just name it.
