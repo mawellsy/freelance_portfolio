@@ -11,19 +11,18 @@ Everything here is simple, clean, and built to be easy for non-technical users t
 
 ---
 
-# 📑 **Table of Contents**
+## 📑 Table of Contents
 
-* [Services I Offer](#services-i-offer)
-* [Projects](#projects)
-
-  * [1. Security Checklist](#1-security-checklist)
-  * [2. CSV Cleaner (Version 1)](#2-csv-cleaner-version-1)
-  * [3. CSV Cleaner (Version 2)](#3-csv-cleaner-version-2)
-  * [4. File Organizer Script](#4-file-organizer-script)
-* [Skills Demonstrated](#skills-demonstrated)
-* [How to Use the Projects](#how-to-use-the-projects)
-* [Future Additions](#future-additions)
-* [About This Portfolio](#about-this-portfolio)
+- [Services I Offer](#-services-i-offer)
+- [Projects](#-projects)
+  - [1. Security Checklist](#1-security-checklist)
+  - [2. CSV Cleaner (Version 1)](#2-csv-cleaner-version-1)
+  - [3. CSV Cleaner (Version 2)](#3-csv-cleaner-version-2)
+  - [4. File Organizer Script](#4-file-organizer-script)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [How to Use the Projects](#-how-to-use-the-projects)
+- [Future Additions](#-future-additions)
+- [About This Portfolio](#-about-this-portfolio)
 
 ---
 
@@ -168,18 +167,3 @@ Each project folder contains a README with detailed instructions, parameters, an
 
 This portfolio is part of my early-stage freelance journey.
 The goal: build simple but useful tools that solve real problems for clients and demonstrate real capability in Python automation, security basics, and data cleaning.
-
----
-
-# 🏁 Done.
-
-Your repo will now look like a fully professional, polished, modern portfolio—even if you're still figuring out how to air-fry chicken without committing a crime.
-
-If you want, I can now also:
-
-* Add **project banners** (small PNGs)
-* Create a **GitHub Pages portfolio site**
-* Write a **clean Upwork overview** that uses this repo as proof
-* Make a **skills badge section**
-
-Just name it.
